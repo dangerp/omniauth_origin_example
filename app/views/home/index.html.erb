@@ -1,0 +1,15 @@
+<p>
+  Please click here to authenticate:
+  <%= link_to '/auth/developer', '/auth/developer' %>
+  
+  <%= link_to '/auth/facebook?foo=bar', '/auth/facebook?foo=bar' %>
+</p>
+<p>
+  Your origin is: <%= @origin %>
+</p>
+<p>
+  Here are all of the params we collected: <%= debug @oa_params %>
+</p>
+<p>
+  Your auth data is: <%= debug @auth %>
+</p>
